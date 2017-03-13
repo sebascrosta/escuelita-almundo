@@ -1,0 +1,118 @@
+doctype html
+html
+  head
+    link(rel="stylesheet", href="./css/style.css")
+    meta(charset='utf-8')
+    title
+  body
+    header
+      nav
+        img(src='../img/logo-almundo.svg', alt='')
+        a(href="#") Ingresar
+        a(href="#") Club almundo
+        a(href="#") Sucursales
+        a(href="#") Llamanos
+        a(href="#") Ayuda
+
+
+    section
+      nav
+        a(href='#') Hoteles
+        a(href='#') Vuelos
+        a(href='#') Vuelo + Hotel
+        a(href='#')
+        | Paquetes
+        a(href='#') Disney
+        a(href='#') Escapadas
+        a(href='#') Seguros
+        a(href='#') Autos
+        a(href='#') Cruceros
+        a(href='#') Ofertas
+        select(name='')
+          option(value='') hola
+          option(value='') hola
+
+
+    section
+      nav
+        a(href='#') Home
+        a(href='#') Hoteles
+
+
+    section
+      header
+        h2 Nombre del Hotel
+      fieldset
+        input(type='text', name='', value='')
+        button(type='submit', name='button') Buscar
+
+
+    section
+      header
+        h2 Regímenes
+      fieldset
+        ul
+          li
+            label(for='CyD') Cama y Desayuno
+            input#CyD(type='checkbox')
+            br
+          li
+            label(for='SH') Solo la habitación
+            input#SH(type='checkbox')
+            br
+          li
+            label(for='D') Desayuno
+            input#D(type='checkbox')
+            br
+          li
+            label(for='DB') Desayuno Buffter
+            input#DB(type='checkbox')
+            br
+
+
+    section
+      ul
+        h2 Lista de Hoteles en BA
+        li
+          p estrella
+          p estrella
+          p estrella
+        li
+          section
+            header
+              h3 Nombrehotel
+            p solo la habitacion
+          section
+            p Precio por persona
+            p
+              | Ars
+              strong 800
+            p
+              | Precio sin promo ARS
+              b 837
+            a(href='#') Ver hotel
+            p
+              b paga en coutas
+        li
+
+
+
+          section
+            header
+              h3 Nombrehotel
+            p Solo la habitacion
+
+
+
+          section
+            p Precio por persona
+            p
+              | Ars
+              strong 800
+            p
+              | Precio sin promo ARS
+              b 837
+            a(href='#') Ver hotel
+            p
+              b paga en coutas
+    footer
